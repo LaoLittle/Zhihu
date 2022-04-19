@@ -19,4 +19,8 @@ dependencies {
     val ktorVer = "2.0.0"
     implementation("io.ktor:ktor-client-core-jvm:$ktorVer")
     implementation("io.ktor:ktor-client-okhttp:$ktorVer")
+    implementation("io.ktor:ktor-serialization-kotlinx-json:$ktorVer")
+    implementation("io.ktor:ktor-client-content-negotiation:$ktorVer")
+    //implementation("org.jsoup:jsoup:1.14.3")
+    testImplementation(kotlin("test"))
 }
